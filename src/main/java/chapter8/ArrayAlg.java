@@ -1,6 +1,12 @@
 package chapter8;
 
 public class ArrayAlg {
+    /**
+     * Generic method
+     * @param a
+     * @param <T>
+     * @return
+     */
     public static <T> T getMiddle(T ... a) {
         return a[a.length / 2];
     }
